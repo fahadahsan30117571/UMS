@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\controllers\\apicontrollers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|solutionrelative:ums\\controllers\\apicontrollers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\USW.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\USW.csproj|solutionrelative:ums\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\USW.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\USW.csproj|solutionrelative:ums\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|solutionrelative:ums\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|solutionrelative:ums\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\controllers\\apicontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|solutionrelative:ums\\controllers\\apicontrollers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|c:\\users\\fahad ahsan\\downloads\\class_test_101-main\\class_test_101-main\\ums\\ums\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B592D19D-2448-4FBB-AE30-B3A589EC2845}|UMS\\UMS.csproj|solutionrelative:ums\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "UMS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "UMS\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T10:30:42.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "UMS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "UMS\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAAABAAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-21T10:22:59.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TestController.cs",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\ApiControllers\\TestController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controllers\\ApiControllers\\TestController.cs",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\ApiControllers\\TestController.cs",
+              "RelativeToolTip": "UMS\\Controllers\\ApiControllers\\TestController.cs",
+              "ViewState": "AQIAAGIAAAAAAAAAAAAswAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:31:10.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\ApiControllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controllers\\ApiControllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\ApiControllers\\StudentController.cs",
+              "RelativeToolTip": "UMS\\Controllers\\ApiControllers\\StudentController.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAgwA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:28:46.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "UMS\\Controllers\\StudentController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:28:35.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "UMS\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "UMS\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T10:23:47.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\appsettings.json",
+              "RelativeDocumentMoniker": "UMS\\appsettings.json",
+              "ToolTip": "C:\\Users\\Fahad Ahsan\\Downloads\\Class_Test_101-main\\Class_Test_101-main\\UMS\\UMS\\appsettings.json",
+              "RelativeToolTip": "UMS\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-18T00:02:19.193Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "USW Student Portal ",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite",
+  "id": "341e5818"
+}

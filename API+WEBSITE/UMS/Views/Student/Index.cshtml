@@ -1,0 +1,104 @@
+﻿@model IEnumerable<UMS.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Student Reg List</h5>
+        <a asp-action="Create" class="btn btn-info">Create-New</a>
+        <hr/>      
+
+        <div class="row">
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Sl#
+                        </th>
+                        <th>
+                            Student Basic Info
+                        </th>
+
+                        <th>
+                            Others Info
+                        </th>
+
+                        <th>
+                            Subject
+                        </th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        var sl = 1;
+                        foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>@sl</td>
+                                <td>
+                                    <span>Name: @item.FullName</span><br />
+                                    <span>Email: @item.Email</span><br />
+                                    <span>DOB: @item.Dob.ToString("dd-MMM-yyyy")</span><br />
+                                    <span>Reg. Date: @item.CreatedOn.ToString("dd-MMM-yyyy hh:mm:ss t")</span><br />
+                                    <span>Address: @item.Address</span><br />
+                                </td>
+
+                                <td>
+                                    <span>
+                                        Marketing Update?:  @if (item.WillAgreeWithMarketingUpdate)
+                                        {
+                                            <span style ="color: green; font-weight:bolder">YES</span>
+                                        }
+                                        else
+                                        {
+                                            <span style="color:red; font-weight:bolder">NO</span>
+                                        }
+                                    </span> <br />
+
+                                    <span>
+                                        Cor. Welsh?:  @if (item.WillWantCorWelsh)
+                                        {
+                                            <span style="color: green; font-weight:bolder">YES</span>
+                                        }
+                                        else
+                                        {
+                                            <span style="color:red; font-weight:bolder">NO</span>
+                                        }
+                                    </span>
+
+                                </td>
+
+
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Subject.Name)
+                                </td>
+                                <td>
+                                    @if (ViewBag.UserId == null)
+                                    {
+                                        <a asp-action="Details" asp-route-id="@item.Id">Details |</a>
+                                    }
+                                    else
+                                    {
+                                        <a asp-action="Edit" asp-route-id="@item.Id">Edit |</a>
+                                        <a asp-action="Details" asp-route-id="@item.Id">Details |</a>
+                                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                                    }
+
+
+                                </td>
+                            </tr>
+
+                            sl++;
+
+                        }
+                    }
+
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

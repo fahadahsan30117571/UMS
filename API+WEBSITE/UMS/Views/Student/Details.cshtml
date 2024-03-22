@@ -1,0 +1,90 @@
+﻿@model UMS.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title">Student Details</h5>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+               Full Name
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.FullName)
+            </dd>
+            <dt class="col-sm-2">
+                Email
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Email)
+            </dd>
+            <dt class="col-sm-2">
+                Date of Birth
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Dob)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Address)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Address)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.WillAgreeWithMarketingUpdate)
+            </dt>
+            <dd class="col-sm-10">
+                <span>
+                    @if (Model.WillAgreeWithMarketingUpdate)
+                    {
+                        <span style="color:green; font-weight:bolder">YES</span>
+                    }
+                    else
+                    {
+                        <span style="color:red; font-weight:bolder">NO</span>
+                    }
+                </span>
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.WillWantCorWelsh)
+            </dt>
+            <dd class="col-sm-10">
+
+
+                @if (Model.WillWantCorWelsh)
+                {
+                    <span style="color:green; font-weight:bolder">YES</span>
+                }
+                else
+                {
+                    <span style="color:red; font-weight:bolder">NO</span>
+                }
+            </dd>
+            <dt class="col-sm-2">
+                Reg. Date
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.CreatedOn)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Subject)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Subject.Name)
+            </dd>
+        </dl>
+
+        @if (ViewBag.UserId != null)
+        {
+            <div class="form-group">
+                <a asp-action="Edit" class="btn btn-secondary" asp-route-id="@Model?.Id">Edit</a> |
+                <a asp-action="Index" class="btn btn-info">List</a>
+            </div>
+        }
+
+    </div>
+
+</div>
